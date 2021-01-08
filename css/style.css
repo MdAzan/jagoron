@@ -1,0 +1,666 @@
+body {
+  color: orange !important;
+  outline: none !important;
+  border: none !important; }
+
+
+nav {
+  background: none;
+}
+
+.navbar {
+  background: #fffbfb;
+  padding: 20px 0;
+}
+.navbar .nav-link {
+  color: black !important;
+  font-size: 17px; 
+}
+.navbar .nav-link:hover {
+  color: silver !important;
+}
+
+@media screen and (max-width: 575px) {
+  .azan-nav {
+    width: 90% !important; }
+}
+
+#home-section {
+  min-height: 500px;
+}
+#home-section .container{
+    border-radius: 5px;
+}
+#home-section p {
+    font-size: 14px;
+}
+#home-section .fa {
+    color: #8d096c;
+    font-size: 30px;
+}
+#home-section .settle #demo .carousel-inner .carousel-item {
+    width: 100%;
+    padding-bottom: 20px; 
+  }
+#home-section .settle #demo .carousel-inner .carousel-item img {
+      width: 100%;
+      height: 350px; 
+}
+#home-section .home-inner {
+    padding-top: 110px; 
+  }
+
+
+
+
+@media screen and (max-width: 1199px) {
+    #home-section .science {
+      margin: auto !important; 
+    }
+    #home-section .settle #demo .carousel-inner .carousel-item {
+      width: 700px !important;
+      margin: auto;
+    }
+    #home-section .settle #demo .carousel-inner .carousel-item img {
+        width: 700px !important;
+        height: 450px; 
+    } 
+
+}
+  
+@media screen and (max-width: 991px){
+    #home-section .settle #demo .carousel-inner .carousel-item {
+      width: 768px !important;
+    }
+    #home-section .settle #demo .carousel-inner .carousel-item img {
+        width: 100% !important;
+        height: 400px; 
+    }
+}
+  
+@media screen and (max-width: 767px) {
+    #home-section h4 {
+      font-size: 30px;
+    } 
+    #home-section .settle #demo .carousel-inner .carousel-item {
+      width: 576px !important;
+    }
+    #home-section .settle #demo .carousel-inner .carousel-item img {
+        width: 100% !important;
+        height: 400px; 
+    } 
+    
+}
+  
+@media screen and (max-width: 575px) {
+    #home-section h4 {
+      font-size: 20px;
+      color: #f1a500; }
+    #home-section .jagoronSectionP {
+      font-size: 16px; }
+    #home-section .home-inner {
+      padding-top: 150px; }
+    #inspiration .img-box {
+      width: 200px;
+      height: 200px; } 
+}
+  
+@media screen and (max-width: 575px) {
+    #home-section .settle #demo .carousel-inner .carousel-item {
+      width: 100% !important;
+    }
+    #home-section .settle #demo .carousel-inner .carousel-item img {
+        width: 100% !important;
+        height: 300px; 
+    } 
+    #home-section .settle #demo .carousel-control-prev, #home-section .settle #demo .carousel-control-next {
+      width: 15px;
+      top: -25px;
+      color: blue !important; } 
+}
+
+
+
+
+
+
+/* social link section 3 start from here */
+#social li {
+  margin-bottom: 20px; 
+}
+
+#social a {
+  margin-left: 10px; 
+}
+
+#social i {
+  font-size: 35px;
+  width: 70px;
+  text-align: center;
+  padding: 10px;
+}
+
+/* about siam vai with footer section */
+.siamVai {
+  width: 300px;
+  height: 450px;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  margin: -225px -150px;
+  perspective: 1500px;
+  border: none;
+  background: none;
+  z-index: 999;
+  animation: hello 500ms linear; }
+  .siamVai .content {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    transition: transform 500ms linear;
+    transform-style: preserve-3d; }
+    .siamVai .content .reject {
+      position: absolute;
+      top: 10px;
+      right: 20px;
+      font-size: 27px;
+      cursor: pointer; }
+    .siamVai .content .front, .siamVai .content .back {
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      background: #3a4458;
+      backface-visibility: hidden;
+      border-radius: 5px;
+      border: 2px solid black; }
+    .siamVai .content .front img {
+      width: 100%;
+      height: 100%; }
+    .siamVai .content .back {
+      transform: rotateY(180deg);
+      border: 2px solid gray;
+      backface-visibility: hidden; }
+      .siamVai .content .back h5 {
+        margin: 0;
+        margin-top: 170px; }
+      .siamVai .content .back p {
+        padding: 0;
+        margin: 0; }
+      .siamVai .content .back ul li i.fa {
+        font-size: 30px;
+        margin: 15px 5px;
+        cursor: pointer; }
+      .siamVai .content .back ul li:nth-child(1) i {
+        color: #e48b06; }
+      .siamVai .content .back ul li:nth-child(2) i {
+        color: #0eabdb; }
+      .siamVai .content .back ul li:nth-child(3) i {
+        color: #3aee43;
+        margin-left: 10px; }
+      .siamVai .content .back ul li:nth-child(1):hover i {
+        color: #fff; }
+      .siamVai .content .back ul li:nth-child(2):hover i {
+        color: #f0ff1e; }
+      .siamVai .content .back ul li:nth-child(3):hover i {
+        color: #ee3a3a; }
+
+.siamVai:hover .content {
+  transform: rotateY(180deg); }
+
+@keyframes hello {
+  0% {
+    transform: translateY(-1000px); }
+  100% {
+    transform: translateY(0); } }
+
+#footer {
+  background: black;
+}
+ #footer .row {
+  padding: 10px 0;
+} 
+#footer .row > div {
+    min-height: 100px;
+}
+#footer button.info {
+    background: #fff;
+    padding: 5px 20px;
+    margin: 0;
+    border: none;
+    font-size: 20px;
+    text-transform: uppercase;
+    color: red;
+    cursor: pointer;
+}
+
+/* footer ends here */
+
+/* subject.php start from here */
+.subject .row .sub img {
+  width: 100%;
+  height: 400px;
+}
+
+.subject .sc img {
+  width: 300px;
+  height: 200px;
+  margin: auto;
+  display: block;
+  border: 2px solid orange; }
+
+.subject .sc span {
+  display: inline-block;
+  color: orange;
+  margin-top: 20px; }
+
+.subject .sc span.invention {
+  color: #0099ff;
+  display: block;
+  font-size: 15px; }
+
+.subject .sc ul {
+  list-style-type: disc;
+  color: black; }
+
+.subject .subject-inner {
+  padding-top: 100px;
+  padding-bottom: 100px; }
+  .subject .subject-inner .sub {
+    margin-bottom: 50px; }
+    .subject .subject-inner .sub h5 {
+      color: green !important; }
+    .subject .subject-inner .sub ul {
+      list-style: square;
+      color: orange; }
+
+@media screen and (max-width: 991px) {
+  .subject .scientist {
+    display: none;
+  }
+  }
+
+@media screen and (max-width: 767px){
+  .subject .row .sub{
+    width: 500px;
+  }
+  .subject .row .sub img {
+    width: 100%;
+    height: 350px;
+  }
+}
+
+@media screen and (max-width: 575px){
+  .subject .row .sub{
+    width: 100%;
+    overflow: hidden;
+  }
+  .subject .row .sub img {
+    width: 300px;
+    height: 200px;
+    display: block;
+    margin: auto;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+/* Physics start from here */
+
+.ex1 {
+  animation: hel 700ms linear; 
+  width: 550px;
+}
+.ex1 .ex1qa1 {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px; 
+}
+.ex1 .ex1qa10 {
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.ex2 {
+  width: 550px;
+  animation: hel 1s linear;
+}
+
+
+
+@keyframes hel{
+  0% {
+    transform: translateY(-4000px); }
+  100% {
+    transform: translateY(0); }
+}
+
+
+.qa .answer ul {
+  list-style: none !important;
+  width: 400px;
+  margin: auto;
+}
+.qa .answer ul li {
+    font-size: 20px;
+    color: orange;
+    border: 1px solid #fff;
+    border-radius: 15px;
+    margin: 20px 0;
+    text-align: center;
+    cursor: pointer;
+    background: gray;
+    height: 40px;
+}
+
+.timer, .timer2 {
+  position: fixed;
+  left: 10px;
+  top: 45%;
+  width: 100px;
+  height: 100px;
+  line-height: 100px;
+  border-radius: 50%;
+  border: 1px solid black;
+  font-size: 20px;
+  animation: an 1s linear;
+  color: black;
+  font-weight: 700;
+}
+
+
+@keyframes an {
+  0% {
+    transform: translateX(2200px); }
+  100% {
+    transform: none; }
+}
+
+.subnone {
+  display: none !important;
+}
+
+.marks, .marks2 {
+  color: white;
+  position: fixed;
+  top: 75px;
+  left: 50%;
+  z-index: 1;
+  width: 600px;
+  transform: translateX(-300px);
+  height: 100%;
+  padding: 50px;
+}
+
+.showMarks span{
+  font-size: 25px;
+  font-family: 'Oswald', sans-serif;
+  font-weight: 300;
+  display: block;
+}
+
+@media screen and (max-width: 575px){
+  .marks, .marks2 {
+    color: white;
+    position: fixed;
+    top: 80px;
+    left: 0;
+    z-index: 1;
+    width: 100%;
+    transform: translateX(0);
+    height: 100%;
+    padding: 50px 0 0 50px;
+  }
+  
+  .showMarks span{
+    font-size: 15px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 300;
+    display: block;
+  }
+  
+}
+
+
+@media screen and (max-width: 767px){
+
+  .timer, .timer2 {
+    position: fixed;
+    left: 50%;
+    top: 12%;
+    margin-left: -100px;
+    width: 200px;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 5px;
+    border: none;
+    background: #f0f0f0;
+    z-index: 2;
+  }
+
+}
+
+@media screen and (max-width: 575px) {
+  .ex1, .ex2 {
+    width: 100%;
+  }
+
+  .qa .answer ul {
+    width: 100%;
+  }
+
+}
+
+@media screen and (max-width: 575px) {
+  .qa .answer ul img{
+    width: 100%;
+  }
+
+}
+
+
+.physicsIntro{
+  margin-top: 80px;
+  padding: 50px 0 !important;
+}
+.physicsIntro .container .row{
+  padding: 50px 0;
+  border-radius: 20px;
+}
+
+.phy_intro iframe{
+  border-radius: 5px;
+}
+
+
+
+.physics-lecture iframe{
+  border-radius: 7px;
+}
+
+.physics-lecture .exam-notes .btn {
+  width: 100px;
+  margin: 10px;
+}
+
+@media screen and (max-width: 991px) {
+    .physicsIntro {
+      margin-top: 0;
+    }
+  .physicsIntro .column{
+    padding-top: 40px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .physicsIntro {
+    background: none;
+  }
+  .physicsIntro .column div h4{
+    font-size: 16px !important;
+  }
+  .physicsIntro .column div p{
+      font-size: 16px !important;
+  }
+ 
+}
+
+@media screen and (max-width: 575px){
+  .physics-lecture .container h6 {
+    width: 100% !important;
+  }
+  
+}
+
+.pagination ul li {
+  margin: 5px;
+}
+
+.pagination ul li a{
+  text-decoration: none;
+  font-size: 20px;
+  border: 1px solid black;
+  padding: 0 10px;
+  border-radius: 3px;
+  background: rgb(102, 114, 107);
+  color: #fff;
+}
+
+.pagination ul li a:hover{
+  background: #fff;
+  color: black;
+}
+
+
+
+
+
+
+
+
+ /* Contact start from here */
+
+.formBox {
+  overflow: hidden; }
+  .formBox .ovarlay {
+    background-image: url("../img/br1.jpg");
+    background-size: cover; }
+  .formBox .formDiv {
+    background: rgba(0, 0, 0, 0.89);
+    background-size: cover;
+    padding: 100px  50px 0; }
+    .formBox .formDiv form .input-box {
+      padding-bottom: 30px; }
+      .formBox .formDiv form .input-box input {
+        background: none;
+        border: none;
+        border-top: 1.5px solid white;
+        color: white;
+        font-size: 20px;
+        width: 100%;
+        padding-left: 40%; }
+      .formBox .formDiv form .input-box input[type="text"], .formBox .formDiv form .input-box input[type="email"] {
+        outline: none; }
+      .formBox .formDiv form .input-box input::placeholder {
+        color: white;
+        font-size: 19px;
+        text-transform: lowercase;
+        font-family: 'roboto', sans-serif;
+        font-weight: 700;
+        padding-left: 5px; }
+    .formBox .formDiv form .input-box:nth-child(4) {
+      padding-bottom: 105px; }
+    .formBox .formDiv form .input-box:last-child input {
+      background: white;
+      width: 120px;
+      color: black;
+      font-family: "roboto", sans-serif;
+      font-weight: 700;
+      outline: none;
+      border: none;
+      padding-left: 0 !important; }
+  .formBox .after-contact {
+    padding-top: 100px; }
+    .formBox .after-contact h4 {
+      font-family: 'open sans condensed', sans-serif;
+      padding-top: 100px; }
+    .formBox .after-contact h1 {
+      font-size: 40px;
+      color: blue; }
+    .formBox .after-contact h1.admission {
+      font-size: 30px;
+      color: orange; }
+
+@media screen and (max-width: 767px) {
+  .formBox .after-contact {
+    padding-top: 0; } }
+
+@media screen and (max-width: 575px) {
+  .formBox {
+    padding-top: 70px;
+    overflow: hidden; }
+    .formBox .ovarlay {
+      background-image: url("../img/br1.jpg");
+      background-size: cover; }
+    .formBox .formDiv h6 {
+      font-size: 20px;
+      text-transform: uppercase; }
+    .formBox .formDiv form .input-box input {
+      padding-left: 10px; }
+    .formBox .formDiv form .input-box:nth-child(4) {
+      padding-bottom: 105px; }
+    .formBox .formDiv form .input-box:last-child input {
+      width: 120px;
+      font-family: "roboto", sans-serif;
+      font-weight: 700;
+      outline: none;
+      border: none;
+      padding-left: 0 !important; }
+    .formBox .formDiv form .input-box:nth-child(4) {
+      padding-bottom: 50px; }
+    .formBox .after-contact h4 {
+      padding: 10px !important;
+      font-size: 30px; }
+    .formBox .after-contact h1 {
+      font-size: 20px; }
+    .formBox .after-contact h1.admission {
+      font-size: 20px;
+      padding-bottom: 20px; } }
+
+.motivation1 {
+  margin-top: 80px; }
+
+.motivation .box .video {
+  width: 100%;
+  height: 400px;
+  padding: 0;
+  margin: 0;
+  overflow: hidden; }
+  .motivation .box .video iframe {
+    width: 100%;
+    height: 100%; }
+
+.arrowup {
+  position: fixed;
+  bottom: 0;
+  right: 10px; }
+  .arrowup i {
+    font-size: 40px;
+    color: green; }
+
+
+/* @media screen and (min-width: 1200px){
+  body{
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+} */
+
+
+   
